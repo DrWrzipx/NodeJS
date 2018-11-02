@@ -1,0 +1,19 @@
+{
+  "name": "nodeexample_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Complete Node.js Guide",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Matic",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
